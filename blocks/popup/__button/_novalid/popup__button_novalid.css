@@ -1,0 +1,5 @@
+.popup__button_novalid {
+    background-color: white;
+    border: 1px solid grey;
+    color: grey;
+}
