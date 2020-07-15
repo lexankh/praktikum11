@@ -7,5 +7,5 @@
 ### Текущая версия проекта - v0.0.1
 
 ## Ссылка на Github Pages
-[lexankh.github.io/praktikum11](lexankh.github.io/praktikum11)
+[https://lexankh.github.io/praktikum11/](https://lexankh.github.io/praktikum11/)
 
