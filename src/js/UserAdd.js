@@ -1,4 +1,4 @@
-class UserAdd {
+export class UserAdd {
   constructor(cardList) {
     this.cardList = cardList;
   }

@@ -1,4 +1,4 @@
-class Card {
+export class Card {
   constructor(item, popupCallback) {
     this.item = item;
     this.newCard = null;

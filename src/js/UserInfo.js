@@ -1,4 +1,4 @@
-class UserInfo {
+export class UserInfo {
   //работа с данными пользователя
 
   constructor(name, job, nameInput, jobInput, api, avatar) {

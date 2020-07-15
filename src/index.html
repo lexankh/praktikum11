@@ -3,14 +3,14 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="<%=htmlWebpackPlugin.files.css %>">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Mesto</title>
-  <link rel="stylesheet" href="./pages/index.css">
 </head>
 <body>
   <div class="root">
     <header class="header root__section">
-      <img src="./images/logo.svg" alt="mesto logo" class="logo">
+      <img src="<%=require('./images/logo.svg')%>" alt="mesto logo" class="logo">
     </header>
     <div class="profile root__section">
       <div class="user-info">
@@ -29,7 +29,7 @@
     </div>
     <div class="popup popup_add">
       <div class="popup__content">
-        <img src="./images/close.svg" alt="" class="popup__close">
+        <img src="<%=require('./images/close.svg')%>" alt="" class="popup__close">
         <h3 class="popup__title">Новое место</h3>
         <form class="popup__form_add" name="new" novalidate>
             <input type="text" id="name" name="name" class="popup__input popup__input_type_name" placeholder="Название" required minlength="2" maxlength="30">
@@ -43,7 +43,7 @@
 
     <div class="popup popup_edit">
       <div class="popup__content">
-        <img src="./images/close.svg" alt="" class="popup__close">
+        <img src="<%=require('./images/close.svg')%>" alt="" class="popup__close">
         <h3 class="popup__title">Редактировать профиль</h3>
         <form class="popup__form_edit" name="edit" novalidate>
             <input type="text" id="fullname" name="name" class="popup__input popup__input_type_full-name" required minlength="2"  maxlength="30" placeholder="Имя">
@@ -58,17 +58,10 @@
   <div class="popup popup_image">
     <div class="popup__fullsize">
    
-      <img src="./images/close.svg" alt="" class="popup__close popup__close_image">
+      <img src="<%=require('./images/close.svg')%>" alt="" class="popup__close popup__close_image">
       <img class="popup__uncrop">
     </div>
   </div>
-  <script src='scripts/Card.js'></script>
-  <script src='scripts/CardList.js'></script>
-  <script src='scripts/Popup.js'></script>
-  <script src='scripts/UserInfo.js'></script>
-  <script src='scripts/FormValdator.js'></script>
-  <script src='scripts/UserAdd.js'></script>
-  <script src='scripts/Api.js'></script>
-  <script src='scripts/script.js'></script>
+  <script src="<%= htmlWebpackPlugin.files.js %>"></script>
 </body>
 </html>
