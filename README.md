@@ -9,3 +9,13 @@
 ## Ссылка на Github Pages
 [https://lexankh.github.io/praktikum11/](https://lexankh.github.io/praktikum11/)
 
+## Развертывание проекта
+* Установить [NodeJS](https://nodejs.org/en/)
+* Скопировать репозиторий в локальное хранилище `https://github.com/lexankh/praktikum11.git`
+* Установить зависимости npm install
+
+## Запуск проекта
+Режим сборки `npm run build`
+Режим разработки `npm run dev`
+Разместить на GitHub Pages `npm run deploy`
+
