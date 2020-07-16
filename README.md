@@ -15,7 +15,7 @@
 * Установить зависимости npm install
 
 ## Запуск проекта
-Режим сборки `npm run build`
-Режим разработки `npm run dev`
-Разместить на GitHub Pages `npm run deploy`
+* Режим сборки `npm run build`
+* Режим разработки `npm run dev`
+* Разместить на GitHub Pages `npm run deploy`
 
